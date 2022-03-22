@@ -10,7 +10,7 @@ Você deverá analisar a resposta da API e construir uma view com a lista dos pr
 
 ### Tecnologias usadas:
 
-*HTML
-*CSS
-*Javascript
-*Jquery/ajax
+* HTML
+* CSS
+* Javascript
+* Jquery/ajax
