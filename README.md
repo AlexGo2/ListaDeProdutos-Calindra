@@ -8,7 +8,8 @@ texto e um botão busca que ao ser clicado realizará uma busca de produto atrav
 API: https://mystique-v2-americanas.juno.b2w.io/autocomplete?content=camiseta&source=nanook.
 Você deverá analisar a resposta da API e construir uma view com a lista dos produtos retornados.
 
-#Tecnologias usadas 
+Tecnologias usadas:
+
 *HTML
 *CSS
 *Javascript
