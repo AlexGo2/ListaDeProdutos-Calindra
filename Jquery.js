@@ -10,7 +10,7 @@ $( '#procurar').on( 'click', function() {
         console.log(request);
         var conteudo = "";
         for(let i=0; i < request.products.length; i++ ){
-          conteudo += "<h1>" + request.products[i].name + "</h1>"
+          conteudo += "<h1 style='margin:15px;'>" + request.products[i].name + "</h1>"
 
         }
           $('#produto').html(conteudo)

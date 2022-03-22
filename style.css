@@ -1,0 +1,74 @@
+@charset 'UTF-8';
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,300&display=swap');
+
+:root { 
+    --RobotoC: 'Roboto Condensed', sans-serif;
+}
+
+
+
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    background-color: #24292D;
+}
+
+.nav { 
+    background-color: #191C1E;
+    color: white;
+    font-family: var(--RobotoC);
+    font-weight: bolder;
+    font-size: 1.8rem;
+    padding: 15px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.logo { 
+    margin-right: 5px;
+}
+
+.mainContainer { 
+    width: 80%;
+    height: 80vh;
+
+    text-align: center;
+    margin: 0 auto;
+}
+
+.tituloPrincipal { 
+    color: #FDFDFD;
+    font-family: var(--RobotoC);
+    padding: 20px;
+}
+
+.search { 
+    padding: 5px;
+    border: 1px solid grey;
+    margin-right: 5px;
+}
+
+.btn { 
+    background-color: #589406;
+    color: white;
+
+    font-weight: bold;
+
+    border: 1.5px solid #2e4114;
+    border-radius: 3px;
+    padding: 5px;
+
+}
+
+.produto { 
+    color: #FDFDFD;
+    text-align: justify;
+    padding: 50px;
+    margin: 0 auto;
+}

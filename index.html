@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://calindra.tech/img/favicon/favicon-16x16.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <!--CDN Jquery-->
     <script
@@ -16,21 +17,22 @@
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="nav" >
+            <img src="https://calindra.tech/img/favicon/favicon-32x32.png" alt="logo Calindra" class="logo">
             <span>Calindra Shop</span>
-            <span>Store</span>
-            <span>contate-nos</span>
         </nav>
     </header>
     <main>
-        <h1>O que está procurando?</h1>
-        <form id="form">
-            <input type="search" name="search" id="search">
-            <input type="button" value="Procurar" id="procurar">
-        </form>
-        <section>
-            <div id="produto"></div>
-        </section>
+        <div class="mainContainer">
+            <h1 class="tituloPrincipal">O que está procurando?</h1>
+            <form id="form">
+                <input type="search" name="search" id="search" class="search">
+                <input type="button" value="Procurar" id="procurar" class="btn">
+            </form>
+            <section>
+                <div id="produto" class="produto"></div>
+            </section>
+        </div>
     </main>
     <footer>
 
